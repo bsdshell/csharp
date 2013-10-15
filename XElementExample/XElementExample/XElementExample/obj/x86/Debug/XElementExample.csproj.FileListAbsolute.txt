@@ -1,0 +1,5 @@
+C:\aronfile\github\csharp\XElementExample\XElementExample\XElementExample\bin\Debug\XElementExample.exe
+C:\aronfile\github\csharp\XElementExample\XElementExample\XElementExample\bin\Debug\XElementExample.pdb
+C:\aronfile\github\csharp\XElementExample\XElementExample\XElementExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\aronfile\github\csharp\XElementExample\XElementExample\XElementExample\obj\x86\Debug\XElementExample.exe
+C:\aronfile\github\csharp\XElementExample\XElementExample\XElementExample\obj\x86\Debug\XElementExample.pdb
