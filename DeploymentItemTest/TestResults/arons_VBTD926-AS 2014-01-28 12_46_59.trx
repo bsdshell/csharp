@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3c79c6d4-4a98-4638-98dc-fd1216ac9763" name="arons@VBTD926-AS 2014-01-28 12:46:59" runUser="VOICEBOX\arons" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="bbc3d5e1-439e-4736-938b-50aabe493759">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="arons_VBTD926-AS 2014-01-28 12_46_59">
+      <DeploymentItem filename="TestStuff\" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-28T12:46:59.0095046-08:00" queuing="2014-01-28T12:46:59.0965133-08:00" start="2014-01-28T12:46:59.1005137-08:00" finish="2014-01-28T12:46:59.2425279-08:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VBTD926-AS" outcome="Warning" timestamp="2014-01-28T12:46:59.0955132-08:00">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item 'TestStuff\' specified by the test settings: System.IO.FileNotFoundException: Could not find file 'C:\try\DeploymentItemTest\TestStuff\'.</Text>
+        <Exception>System.IO.FileNotFoundException: Could not find file 'C:\try\DeploymentItemTest\TestStuff\'.
+File name: 'C:\try\DeploymentItemTest\TestStuff\'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="VBTD926-AS" outcome="Warning" timestamp="2014-01-28T12:46:59.0955132-08:00">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item 'deploymentDir' specified by the test 'TestProject1.UnitTest1.TestMethod1': System.IO.FileNotFoundException: Could not find file 'C:\try\DeploymentItemTest\deploymentDir'.</Text>
+        <Exception>System.IO.FileNotFoundException: Could not find file 'C:\try\DeploymentItemTest\deploymentDir'.
+File name: 'C:\try\DeploymentItemTest\deploymentDir'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\try\deploymentitemtest\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <DeploymentItems>
+        <DeploymentItem filename="deploymentDir" />
+      </DeploymentItems>
+      <Execution id="5183b861-f27d-4a7d-8540-97999752b1a8" />
+      <TestMethod codeBase="C:/try/DeploymentItemTest/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="5183b861-f27d-4a7d-8540-97999752b1a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5183b861-f27d-4a7d-8540-97999752b1a8" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="VBTD926-AS" duration="00:00:00.0082579" startTime="2014-01-28T12:46:59.1025139-08:00" endTime="2014-01-28T12:46:59.2345271-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5183b861-f27d-4a7d-8540-97999752b1a8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

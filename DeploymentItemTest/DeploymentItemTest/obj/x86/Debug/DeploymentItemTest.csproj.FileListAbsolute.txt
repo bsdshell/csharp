@@ -1,0 +1,10 @@
+C:\try\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.exe
+C:\try\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.pdb
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.Form1.resources
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.Properties.Resources.resources
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.exe
+C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.pdb
+C:\try\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.exe.config
