@@ -3,3 +3,8 @@ C:\try\DeploymentItemTest\TestProject1\bin\Debug\TestProject1.pdb
 C:\try\DeploymentItemTest\TestProject1\obj\Debug\ResolveAssemblyReference.cache
 C:\try\DeploymentItemTest\TestProject1\obj\Debug\TestProject1.dll
 C:\try\DeploymentItemTest\TestProject1\obj\Debug\TestProject1.pdb
+C:\aronfile\github\csharp\DeploymentItemTest\TestProject1\bin\Debug\TestProject1.dll
+C:\aronfile\github\csharp\DeploymentItemTest\TestProject1\bin\Debug\TestProject1.pdb
+C:\aronfile\github\csharp\DeploymentItemTest\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\aronfile\github\csharp\DeploymentItemTest\TestProject1\obj\Debug\TestProject1.dll
+C:\aronfile\github\csharp\DeploymentItemTest\TestProject1\obj\Debug\TestProject1.pdb

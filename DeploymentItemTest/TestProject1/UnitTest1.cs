@@ -25,6 +25,7 @@ namespace TestProject1
 
         [TestMethod]
         //Copy sourceDir contest to destinationDir
+        //sourceDir is relative to Build directory(e.g. <Your project>\bin\Debug )
         [DeploymentItem("sourceDir", "destinationDir")]
         public void TestMethod1()
         {

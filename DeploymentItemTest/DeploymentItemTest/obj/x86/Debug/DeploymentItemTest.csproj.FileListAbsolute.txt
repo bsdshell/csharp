@@ -8,3 +8,13 @@ C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\GenerateResource.writ
 C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.exe
 C:\try\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.pdb
 C:\try\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.exe.config
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.exe.config
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.exe
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.pdb
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.exe
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\bin\Debug\DeploymentItemTest.pdb
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.Form1.resources
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\DeploymentItemTest.Properties.Resources.resources
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\aronfile\github\csharp\DeploymentItemTest\DeploymentItemTest\obj\x86\Debug\GenerateResource.write.1.tlog
