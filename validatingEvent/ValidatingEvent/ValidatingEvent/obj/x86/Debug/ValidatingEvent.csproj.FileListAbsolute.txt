@@ -1,0 +1,9 @@
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\bin\Debug\ValidatingEvent.exe
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\bin\Debug\ValidatingEvent.pdb
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\ValidatingEvent.Form1.resources
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\ValidatingEvent.Properties.Resources.resources
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\ValidatingEvent.exe
+C:\aronfile\github\csharp\validatingEvent\ValidatingEvent\ValidatingEvent\obj\x86\Debug\ValidatingEvent.pdb
