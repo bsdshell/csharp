@@ -27,7 +27,7 @@ namespace MyMutex
             for (int i = 0; i < 10; i++)
             {
                 UseResource();
-                Console.WriteLine("--------------->[{0}]", Thread.CurrentThread.Name);
+                Console.WriteLine("            [{0} tries to access the protected area]", Thread.CurrentThread.Name);
             }
         }
         static void UseResource()
