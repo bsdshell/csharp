@@ -34,7 +34,7 @@ namespace BoxConversion
         static void Main(string[] args)
         {
             
-            //See the different between struct and class
+            //See the difference between struct and class
 
             PointStruct p = new PointStruct(2, 4);
             object box = p;
