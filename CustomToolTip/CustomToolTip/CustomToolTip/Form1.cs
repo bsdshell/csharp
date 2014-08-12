@@ -5,7 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace CustomToolTip
@@ -18,15 +20,53 @@ namespace CustomToolTip
             InitializeComponent();
             toolTip.ShowAlways = true;
             //toolTip.IsBalloon = true;
-            toolTip.AutoPopDelay = 2500;
-            toolTip.InitialDelay = 500;
-            toolTip.ReshowDelay = 3000;
+            toolTip.AutoPopDelay = 5000;
+            toolTip.InitialDelay = 0;
+            toolTip.ReshowDelay = 0;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string inputStr = @" If this attribute is presented and set to list, handler will not, use number handler, for match. For example:  will not give a match. User can only select with criteria match.";
+            SplitLine(inputStr, 4);
+            toolTip.IsBalloon = true;
             toolTip.SetToolTip(this.button1, "This is my button");
-            toolTip.SetToolTip(this.label1, "This is my label");
+            toolTip.SetToolTip(this.label1, SplitLine(inputStr, 10));
+        }
+
+        static string SplitLine(string inputString, int numWordPerLine)
+        {
+            string returnString = string.Empty;
+            if (!string.IsNullOrEmpty(inputString))
+            {
+                string[] delimiter = new string[] { @" " };
+                inputString = Regex.Replace(inputString, @"\s+", @" ").Trim();
+                List<string> words = inputString.Split(delimiter, StringSplitOptions.None).ToList();
+                List<string> lineList = new List<string>();
+
+                string line = string.Empty;
+                for (int i = 0; i < words.Count; i++)
+                {
+                    if (i % numWordPerLine == 0)
+                    {
+                        if (!string.IsNullOrEmpty(line.Trim()))
+                        {
+                            lineList.Add(line);
+                        }
+                        line = string.Empty;
+                        line += words[i].Trim() + @" ";
+                    }
+                    else
+                    {
+                        line += words[i].Trim() + @" ";
+                    }
+                }
+                for (int i = 0; i < lineList.Count; i++)
+                {
+                    returnString += lineList[i] + Environment.NewLine;
+                }
+            }
+            return returnString;
         }
     }
 
@@ -42,7 +82,7 @@ namespace CustomToolTip
         // use this event to set the size of the tool tip
         private void OnPopup(object sender, PopupEventArgs e) 
         {
-            e.ToolTipSize = new Size(200, 200);
+            //e.ToolTipSize = new Size(200, 200);
         }
 
         // use this event to customise the tool tip
