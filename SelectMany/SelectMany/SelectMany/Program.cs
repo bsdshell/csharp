@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 namespace SelectMany
@@ -84,6 +85,16 @@ namespace SelectMany
             {
                 Console.WriteLine("({0})", v);
             }
+
+            //IEnumrable
+            List<int> elist = new List<int>() { 1, 2, 5, 4, 6 };
+            IEnumerable query = from item in elist where (item % 2 == 0) select item;
+
+            foreach (int item in query)
+            {
+                Console.WriteLine("item={0}", item);
+            }
+            Console.WriteLine();
 
             var listList = listPerson.Select(p => p.listFood);
             Console.WriteLine("Select: Generate a list of list");
